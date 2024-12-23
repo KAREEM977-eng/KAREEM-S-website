@@ -1,0 +1,119 @@
+
+body{
+    background-image: linear-gradient(darkblue, black);
+}
+
+
+
+a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    direction: ltr;
+    float: left;
+    margin: 30px;
+    position: relative;
+left: 200px;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+background-image:radial-gradient( rgba(0, 132, 255, 0.464), rgba(16, 12, 25, 0.537)) ,    url(23392-Flat-Icons-Marketing-High-Res-Illustrations-Getty-Images--1621292691.jpg);
+background-size: contain;
+height: 800px;
+width: 1000px;
+margin-bottom: -15px;
+position: absolute;
+left: 300px;
+}
+header:hover{
+
+background-image: linear-gradient(rgba(0, 132, 255, 0.464), rgba(75, 72, 80, 0.537), transparent), url(23392-Flat-Icons-Marketing-High-Res-Illustrations-Getty-Images--1621292691.jpg);
+    background-size: contain;
+    height: 800px;
+    width: 1000px;
+    margin-bottom: -15px;
+    position: absolute;
+    left: 300px;
+
+
+
+}
+ul, li{
+    list-style: none;
+    
+
+}
+.first{
+    height: 600px;
+    width: 600px;
+    background-image: url(facebook.png);
+    border: solid black 2px;
+    position: relative;
+    left: 250px;
+    top: 170px;
+    background-size: contain;
+}
+input{
+    background-image: linear-gradient(rgb(183, 233, 117), rgb(98, 153, 198));
+}
+fieldset{
+    color: rgb(30, 105, 174);
+}
+input:hover{
+    background-image: linear-gradient( rgb(164, 191, 183), transparent);
+}
+.second{
+    border-top: solid black 4px;
+    clear: both;
+    position: absolute;
+    bottom: -200;
+color: white;
+text-align: center;
+margin-left: 80px;
+}
+h1{
+    animation-name: kareem;
+    animation-duration: 3s;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    color:white;
+}
+@keyframes kareem {
+
+
+    0% {
+        color:blue; 
+        font-size: 20px;
+        background-color: aqua;
+    }
+25%{
+    color: cornflowerblue;
+    font-size: 25px;
+    background-color: crimson;
+    
+}
+
+50%{
+    color: cyan;
+    font-size: 30px;
+    text-decoration-line: line-through;
+    background-color: chartreuse;
+}
+75%{
+    color: azure;
+    font-size: 40px;
+     font-weight: lighter;
+     background-color: deepskyblue;
+}
+100%{
+    color: gold;
+    font-size: 50px;
+
+    
+}
+
+
+
+}
